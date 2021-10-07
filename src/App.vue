@@ -1,15 +1,22 @@
 <template>
   <div id="app">
     <NavBar/>
+    <Skills/>
+    <Projects/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import Skills from './components/Skills.vue'
+import Projects from './components/Projects.vue'
+
 export default {
   name: 'app',
   components: {
-    NavBar
+    NavBar,
+    Skills,
+    Projects
   }
 }
 </script>
