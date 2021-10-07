@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <NavBar/>
+    <About/>
     <Skills/>
     <Projects/>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import NavBar from './components/NavBar.vue'
+import About from './components/About.vue'
 import Skills from './components/Skills.vue'
 import Projects from './components/Projects.vue'
 
@@ -15,6 +17,7 @@ export default {
   name: 'app',
   components: {
     NavBar,
+    About,
     Skills,
     Projects
   }

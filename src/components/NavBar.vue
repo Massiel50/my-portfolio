@@ -1,5 +1,5 @@
 <template>
-  <mdb-navbar color="grey" class=" lighten-4 py-4">
+  <mdb-navbar color="grey" position= "top" class=" lighten-4 py-4">
     <mdb-navbar-nav nav center>
       <mdb-nav-item>
         <mdb-btn href = "https://www.linkedin.com/in/massiel-escano/" tag="a" size="lg" floating class="btn-li" icon="linkedin-in" fab></mdb-btn>
