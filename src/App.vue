@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <NavBar/>
+
     <About/>
     <Skills/>
     <Projects/>
@@ -32,5 +33,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  min-height: 500px;
+  padding-top: 50px;
+  background-color: pink;
 }
 </style>
