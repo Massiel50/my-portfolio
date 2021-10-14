@@ -7,7 +7,7 @@
          <i class="fab fa-linkedin-in"></i></button>
       </mdb-nav-item>
       <mdb-nav-item>
-        <button type="button" class="btn btn-dark btn-lg btn-floating" href= "https://github.com/Massiel50">
+        <button type="button" size= "fa-5x" class="btn btn-dark btn-lg btn-floating" href= "https://github.com/Massiel50">
          <i class="fab fa-github"></i></button>
       </mdb-nav-item>
     </mdb-navbar-nav>

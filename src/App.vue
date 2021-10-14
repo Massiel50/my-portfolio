@@ -40,4 +40,9 @@ body {
   padding-top: 50px;
   background-color: pink;
 }
+
+h2 {
+  font-size: 4rem;
+  font-style: oblique;
+}
 </style>
