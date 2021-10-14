@@ -5,7 +5,7 @@
       </mdb-card-title>
     <mdb-card-text></mdb-card-text>
     <div class="flex-row">
-      <p>boxes of pics of projects as a link</p>
+      <p>2 rows of icons and skill descripton below</p>
     </div>
   </mdb-card>
 </template>

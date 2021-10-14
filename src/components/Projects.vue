@@ -1,11 +1,23 @@
- <template>
-     <h1>This is projects</h1>
- </template>
-
+<template>
+  <mdb-card class="card-body" >
+    <mdb-card-title>
+      <h2>PROJECTS</h2>
+      </mdb-card-title>
+    <mdb-card-text></mdb-card-text>
+    <div class="flex-row">
+      <p>boxes of pics of projects as a link</p>
+    </div>
+  </mdb-card>
+</template>
 
 <script>
-    export default {
-        name: 'Projects',
-        
+  import { mdbCard, mdbCardTitle, mdbCardText } from 'mdbvue';
+  export default {
+    name: 'About',
+    components: {
+      mdbCard,
+      mdbCardTitle,
+      mdbCardText
     }
+  }
 </script>
