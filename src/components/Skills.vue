@@ -5,17 +5,20 @@
       </mdb-card-title>
     <mdb-card-text></mdb-card-text>
     <div class="flex-row">
-      <p>2 rows of icons and skill descripton below</p>
       <div id= "iconRow1">
         <mdb-icon icon="laptop-code" />
+        <p>Javascript  C#  C++  Node.js  Express</p>
       
         <mdb-icon icon="palette" />
+        <p>CSS  React  Vue  Bootstrap  Figma </p>
       </div>
       
       <div id= "iconRow1">
         <mdb-icon icon="database" />
+        <p>MySQL  MongoBD  Sequelize</p>
 
         <mdb-icon far icon="smile-wink" />
+        <p>Communication  Time-management</p>
       </div>
 
     </div>
@@ -40,5 +43,7 @@
   background-color: black;
   color:blanchedalmond;
 }
-
+p{
+  font-size: 15px;
+}
 </style>
