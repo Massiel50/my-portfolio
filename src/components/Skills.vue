@@ -6,21 +6,31 @@
     <mdb-card-text></mdb-card-text>
     <div class="flex-row">
       <p>2 rows of icons and skill descripton below</p>
-      <mdb-icon icon="laptop-code" />
+      <div id= "iconRow1">
+        <mdb-icon icon="laptop-code" />
       
-      <mdb-icon icon="palette" />
+        <mdb-icon icon="palette" />
+      </div>
+      
+      <div id= "iconRow1">
+        <mdb-icon icon="database" />
+
+        <mdb-icon far icon="smile-wink" />
+      </div>
+
     </div>
   </mdb-card>
 </template>
 
 <script>
-  import { mdbCard, mdbCardTitle, mdbCardText } from 'mdbvue';
+  import { mdbCard, mdbCardTitle, mdbCardText, mdbIcon } from 'mdbvue';
   export default {
     name: 'About',
     components: {
       mdbCard,
       mdbCardTitle,
-      mdbCardText
+      mdbCardText,
+      mdbIcon
     }
   }
 </script>
