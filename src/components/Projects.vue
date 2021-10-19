@@ -3,27 +3,17 @@
     <mdb-card-title>
       <h2>PROJECTS</h2>
       </mdb-card-title>
-    <mdb-card-text></mdb-card-text>
+
     <div class="flex-row">
       <div id= "row1">
+        <mdb-view>
         <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
         style="width: 200px">
-        <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
-         style="width: 200px">
-      </div>
-      
-      <div id= "row2">
-        <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
-        style="width: 200px">
-        <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
-         style="width: 200px">
-      </div>
-
-      <div id= "row3">
-        <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
-        style="width: 200px">
-        <img src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="thumbnail" class="hover"
-         style="width: 200px">
+        <mdb-mask flex-center overlay="teal-strong" text="strong overlay" />
+        </mdb-view>
+       <mdb-view class="hoverable overlay" src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="hoverable">
+        <mdb-mask flex-center text="Hover effect" />
+        </mdb-view>
       </div>
 
     </div>
@@ -31,13 +21,14 @@
 </template>
 
 <script>
-  import { mdbCard, mdbCardTitle, mdbCardText } from 'mdbvue';
+  import { mdbCard, mdbCardTitle, mdbMask, mdbView } from 'mdbvue';
   export default {
     name: 'About',
     components: {
       mdbCard,
       mdbCardTitle,
-      mdbCardText
+      mdbMask,
+      mdbView
     }
   }
 </script>
