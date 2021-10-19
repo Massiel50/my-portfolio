@@ -11,9 +11,12 @@
         style="width: 200px">
         <mdb-mask flex-center overlay="teal-strong" text="strong overlay" />
         </mdb-view>
-       <mdb-view class="hoverable overlay" src="https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg" alt="hoverable">
-        <mdb-mask flex-center text="Hover effect" />
-        </mdb-view>
+
+        <mdb-view>
+  <img src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" class="img-fluid" alt="placeholder">
+  <mdb-mask flex-center overlay="teal-strong" text="strong overlay" />
+</mdb-view>
+
       </div>
 
     </div>
@@ -23,7 +26,7 @@
 <script>
   import { mdbCard, mdbCardTitle, mdbMask, mdbView } from 'mdbvue';
   export default {
-    name: 'About',
+    name: 'Projects',
     components: {
       mdbCard,
       mdbCardTitle,

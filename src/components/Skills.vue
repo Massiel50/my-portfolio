@@ -28,7 +28,7 @@
 <script>
   import { mdbCard, mdbCardTitle, mdbCardText, mdbIcon } from 'mdbvue';
   export default {
-    name: 'About',
+    name: 'Skills',
     components: {
       mdbCard,
       mdbCardTitle,
