@@ -7,18 +7,20 @@
     <div class="flex-row">
       <div id= "iconRow1">
         <mdb-icon icon="laptop-code" />
-        <p>Javascript  C#  C++  Node.js  Express</p>
+        <p>Javascript  C#  C++  Node.js  Express </p>
       
         <mdb-icon icon="palette" />
         <p>CSS  React  Vue  Bootstrap  Figma </p>
       </div>
-      
-      <div id= "iconRow1">
+    </div>
+
+    <div class="flex-row"> 
+      <div id= "iconRow2">
         <mdb-icon icon="database" />
-        <p>MySQL  MongoBD  Sequelize</p>
+        <p>MySQL  MongoBD  Sequelize </p>
 
         <mdb-icon far icon="smile-wink" />
-        <p>Communication  Time-management</p>
+        <p>Communication  Time-management </p>
       </div>
 
     </div>
