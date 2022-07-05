@@ -1,12 +1,10 @@
 <template>
   <mdb-card class="card-body" >
     <mdb-card-title>
-      <p>No <br> THIS IS</p>
+      <p>THIS IS</p>
+      <a>M@SSI</a>
       </mdb-card-title>
     <mdb-card-text></mdb-card-text>
-    <div class="flex-row">
-      <a>M@SSI</a>
-    </div>
   </mdb-card>
 </template>
 
@@ -27,7 +25,7 @@
  width: 75%; 
  margin-top: 1rem;
  font-size: 4rem;
- float: left;
+  margin: auto;
 }
 
 p {
